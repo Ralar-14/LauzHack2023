@@ -16,7 +16,7 @@ def get_token():
     return requests.post('https://login.microsoftonline.com/2cda5d11-f0ac-46b3-967d-af1b2e1bd01a/oauth2/v2.0/token',
                          data=params).json()
 
-def use_token(route):
+def use_token(route, API_URL = API_URL):
     auth = get_token()['access_token']
     headers = {
         'Authorization': f"Bearer {auth}",
@@ -30,18 +30,20 @@ def use_token(route):
     return requests.get(API_URL + route, headers=headers).json()
 
 def get_data():
-    api_data = use_token("/v3/stop-places")
+    api_data = use_token(route = "/v3/stop-places")
     jf = {"stopPlaces": [{"id": data['id'], "vehicleModes": [i["id"] for i in data['vehicleModes']]} for data in api_data['stopPlaces']]}
 
     json_filtrado = json.dumps(jf, indent=4)
     
-    #with open('data2.json', 'w') as f:
-    #    f.write(json_filtrado)
+    with open('data2.json', 'w') as f:
+        f.write(json_filtrado)
          
     return json_filtrado
 
 if __name__ == '__main__':
+    use
     # get_data()
+    
     
         
     

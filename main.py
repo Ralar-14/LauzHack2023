@@ -38,23 +38,17 @@ def get_data():
          
     return json_filtrado
 
-if __name__ == '__main__':
-    use
-    # get_data()
-    #46.22083551986927, 6.120279059147888
-    #47.47444774490644, 8.51004368853066
-    
-    org = use_token("/v3/places/by-coordinates?longitude=6.120&latitude=46.220&limit=1&includeVehicleModes=false&type=StopPlace")
+def compute_ids(coords_init, coords_end):
+    org = use_token(f"/v3/places/by-coordinates?longitude={coords_init[1]}&latitude={coords_init[0]}&limit=1&includeVehicleModes=false&type=StopPlace")
+    print(org)
     id_org = org["places"][0]["id"]
-    dst = use_token("/v3/places/by-coordinates?longitude=8.5100&latitude=47.4744&limit=1&includeVehicleModes=false&type=StopPlace")
+    dst = use_token(f"/v3/places/by-coordinates?longitude={coords_end[1]}&latitude={coords_end[0]}&limit=1&includeVehicleModes=false&type=StopPlace")
     id_dst = dst["places"][0]["id"]
-    jsn = {"origin": id_org, "destination": id_dst}
-    b = use_token("/v3/trips/by-origin-destination", method="POST", js=jsn)["trips"][0]
+    return id_org, id_dst
 
-    print(id_org)
-    print(id_dst)
-    with open('data5.json', 'w') as f:
-       f.write(json.dumps(dst, indent=4))
+# jsn = {"origin": id_org, "destination": id_dst}
+# b = use_token("/v3/trips/by-origin-destination", method="POST", js=jsn)["trips"][0]
+    
     
     
     

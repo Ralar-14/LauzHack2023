@@ -1,6 +1,6 @@
 
 import requests
-from main import get_token
+from main import get_token, compute_ids
 import json
 
 API_URL = "https://journey-service-int.api.sbb.ch"
@@ -42,16 +42,15 @@ api_key_map = "bf9e3a88ab8101ba22ba8c752bbbcfd8"
 def get_route_drawing(codi_origen, codi_desti):
     return requests.get(f"{url_map}?fromStationID={codi_origen}&toStationID={codi_desti}&api_key={api_key_map}")
 
-response = get_route_drawing(8503006, 8595419)
-print("Código de estado:", response.status_code)
-print("Contenido:", response)
-
-with open('coord1.json', 'w') as f:
+def main_fun(init_coords, end_coords):
+    id_org, id_dst = compute_ids(init_coords, end_coords)
+    
+    response = get_route_drawing(id_org, id_dst)
+    with open("mapa.json", "w") as f:
+        json.dump(response.json(), f)
     lista = response.json()["features"][2]["geometry"]["coordinates"]
-    f.write("[")
-    for i in lista:
-        f.write("[")
-        f.write(str(i[1]) + "," + str(i[0]))
-        f.write("],")
-    f.write("]")
+    lista = [[i[1], i[0]] for i in lista]
+    return lista
+
+
 

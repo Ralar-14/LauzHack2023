@@ -42,10 +42,19 @@ api_key_map = "bf9e3a88ab8101ba22ba8c752bbbcfd8"
 def get_route_drawing(codi_origen, codi_desti):
     return requests.get(f"{url_map}?fromStationID={codi_origen}&toStationID={codi_desti}&api_key={api_key_map}")
 
-response = get_route_drawing(8758270, 8013414)
+response = get_route_drawing(8503006, 8595419)
 print("Código de estado:", response.status_code)
 print("Contenido:", response)
 
-with open('coord.json', 'w') as f:
-    f.write(json.dumps(response.json()["features"][2]["geometry"]["coordinates"], indent=4))
+with open('coord1.json', 'w') as f:
+    lista = list(json.loads(response.json()["features"][2]["geometry"]["coordinates"]))
+    print(type(lista))
+    
+    f.write("[")
+    for i in lista:
+        list(i)
+        f.write("[")
+        f.write[str(i[1]) + "," + str(i[0])]
+        f.write("],")
+    f.write("]")
 

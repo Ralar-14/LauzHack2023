@@ -47,14 +47,11 @@ print("Código de estado:", response.status_code)
 print("Contenido:", response)
 
 with open('coord1.json', 'w') as f:
-    lista = list(json.loads(response.json()["features"][2]["geometry"]["coordinates"]))
-    print(type(lista))
-    
+    lista = response.json()["features"][2]["geometry"]["coordinates"]
     f.write("[")
     for i in lista:
-        list(i)
         f.write("[")
-        f.write[str(i[1]) + "," + str(i[0])]
+        f.write(str(i[1]) + "," + str(i[0]))
         f.write("],")
     f.write("]")
 

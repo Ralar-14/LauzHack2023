@@ -1,0 +1,2518 @@
+{
+    "trips": [
+        {
+            "id": "pwdECgJWMRL3A8KswrZCQUlNwrZ0AQvwQEhLScK2VCRBPTFATz1aw7xyaWNoIEhCQFg9ODU0MDIxMUBZPTQ3Mzc4MTc3QHU9MEBMPTg1MDMwMDBAYT0xMjhADTsQQWFyYXUBNhQwNTEyNzgJNhQ5MTM2NEAVNhAyMTEzQA02LDIwMjMwNDE4MTMwOB0NQDM1JElSIDM3IDIyNjgkJDEkBQEEwqcRor5nAAnYIEJlcm5AWD03NAGSBdIUNjk0ODgzHZwINzAwFdIZnAQ0NhkNCDQyNAGcGDE2IDIxNzIZnOC2S0PCtiNWRSMyI0NGIzUwI0NBIzAjQ00jMCNTSUNUIzEjQU0jMTE1NTA4MDEjQU0yIzAjUlQjNyMBOg07KDAjRVJHIzIjSElOAQwkQ0sjMTg3OTg4fBUHFDgwNjR8MQkHGDB8MHwxNjUJHRw3fDF8MHwyMgUWPC0yMTQ3NDgzNjQ4I8K2S1IRYCgxIxrBAQo4ChIKBy2-uBIHU1RBVElPThIZMjAyMy0wNC0xOFQxMzowODowMCswMjowMCIHUExBTk5FRAofDToMMjExORU6ACIRHwwoAQo6GSEAMxUhABo6WwAEMzVGWwBcKAISGBACGgYwMDAwMTEiAklSKgIzNzIEQQBEKg5QVUJMSUNfSk9VUk5FWRriWmkAPsQABDQ2SmkAAAMVxgwwMjE4FaUAIhXGJAQKGwoOCgMxMzJKHQAEBQoR40EqFSE24wAMNDoyNEp6ABgGEhoIAxAGNuUADDE2MgRBST7lAA",
+            "legs": [
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "0",
+                    "duration": "PT27M",
+                    "serviceJourney": {
+                        "id": "1|225219|2|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8503000",
+                                    "name": "Z\u00fcrich HB",
+                                    "canton": "ZH",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.540193,
+                                            47.378177
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8503000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:08:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503000_14",
+                                        "swissLocationId": "ch:1:sloid:3000:8:14",
+                                        "name": "14"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "14"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 0,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8502119",
+                                    "name": "Lenzburg",
+                                    "canton": "AG",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.170377,
+                                            47.391194
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8502119"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T13:28:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502119_3",
+                                        "swissLocationId": "ch:1:sloid:2119:3:3",
+                                        "name": "3"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "3"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:29:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502119_3",
+                                        "swissLocationId": "ch:1:sloid:2119:3:3",
+                                        "name": "3"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "3"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 1,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8502113",
+                                    "name": "Aarau",
+                                    "canton": "AG",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.051251,
+                                            47.391355
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8502113"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T13:35:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502113_4",
+                                        "swissLocationId": "ch:1:sloid:2113:3:4",
+                                        "name": "4"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "4"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 2,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "IR 37 2268",
+                                "line": "37",
+                                "lineId": "H_37_000011_",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "InterRegio",
+                                    "vehicleSubModeShortName": "IR"
+                                },
+                                "number": "2268",
+                                "numberFormatted": "2268",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 0,
+                                "routeIndexTo": 2
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "FS",
+                                "text": {
+                                    "template": "Free Internet with the SBB FreeSurf app",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 0,
+                                "routeIndexTo": 2,
+                                "advertised": true
+                            },
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:2268-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 0,
+                                "routeIndexTo": 2,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Basel SBB"
+                            }
+                        ]
+                    },
+                    "paginationCursor": {
+                        "previous": "PS%3DB%24T%3D133500%24L%3DA%3D1%40O%3DAarau%40X%3D8051278%40Y%3D47391364%40U%3D85%40L%3D8502113%40%24"
+                    }
+                },
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "1",
+                    "duration": "PT38M",
+                    "serviceJourney": {
+                        "id": "1|208222|1|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8502113",
+                                    "name": "Aarau",
+                                    "canton": "AG",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.051251,
+                                            47.391355
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8502113"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:46:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502113_5",
+                                        "swissLocationId": "ch:1:sloid:2113:3:5",
+                                        "name": "5"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "5"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 3,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8500218",
+                                    "name": "Olten",
+                                    "canton": "SO",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.907685,
+                                            47.351929
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8500218"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T13:55:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8500218_8",
+                                        "swissLocationId": "ch:1:sloid:218:5:8",
+                                        "name": "8"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "8"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:56:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8500218_8",
+                                        "swissLocationId": "ch:1:sloid:218:5:8",
+                                        "name": "8"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "8"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 4,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "132",
+                                    "name": "Bahn-2000-Strecke",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.689364,
+                                            47.19637
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/132"
+                                    }
+                                },
+                                "forBoarding": false,
+                                "forAlighting": false,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "delayUndefined": false,
+                                "routeIndex": 5,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8507000",
+                                    "name": "Bern",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.439122,
+                                            46.948825
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8507000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:24:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8507000_12",
+                                        "swissLocationId": "ch:1:sloid:7000:6:12",
+                                        "name": "12"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "12"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 6,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "IR 16 2172",
+                                "line": "16",
+                                "lineId": "H_16_000011_",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "InterRegio",
+                                    "vehicleSubModeShortName": "IR"
+                                },
+                                "number": "2172",
+                                "numberFormatted": "2172",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 3,
+                                "routeIndexTo": 6
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "FS",
+                                "text": {
+                                    "template": "Free Internet with the SBB FreeSurf app",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 3,
+                                "routeIndexTo": 6,
+                                "advertised": true
+                            },
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:2172-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 3,
+                                "routeIndexTo": 6,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Bern"
+                            }
+                        ]
+                    },
+                    "paginationCursor": {
+                        "next": "PS%3DF%24T%3D134600%24L%3DA%3D1%40O%3DAarau%40X%3D8051278%40Y%3D47391364%40U%3D85%40L%3D8502113%40%24"
+                    }
+                }
+            ],
+            "status": {
+                "alternative": false,
+                "valid": true,
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "quayChanged": false,
+                "delayed": false,
+                "delayedUnknown": false,
+                "reachable": true,
+                "notServicedStopPoints": false,
+                "unplannedStopPoints": false
+            },
+            "fastTransfer": false,
+            "transfers": 1,
+            "duration": "PT1H16M",
+            "pagingChecksum": "1635a4a7_3",
+            "operatingPeriods": [
+                {
+                    "daysIrregularFormatted": "18. Apr until 9. Dec 2023 daily; 15. Jul until 10. Sep 2023 Mo - Fr; not 13., 14. May 2023, 18. until 21. May 2023, 3., 4. Jun 2023, 1., 2. Jul 2023, 28., 29. Oct 2023, 2., 3. Dec 2023",
+                    "operatingDays": [],
+                    "name": "Trip"
+                }
+            ]
+        },
+        {
+            "id": "2QRECgJWMRLYAsKswrZCQUlNwrZ0AQvwQEhLScK2VCRBPTFATz1aw7xyaWNoIEhCQFg9ODU0MDIxMUBZPTQ3Mzc4MTc3QHU9MEBMPTg1MDMwMDBAYT0xMjhADTswQmVybkBYPTc0MzkxMwU1HDY5NDg4MzRAFTUANx01LDIwMjMwNDE4MTMzMhkNPDQyOCRJQyAxIDcyMCQkMSQFAbDCtktDwrYjVkUjMiNDRiM1MCNDQSMwI0NNIzAjU0lDVCMxI0FNIzExNTUwODABDCAyIzAjUlQjNyMBOg07KDAjRVJHIzEjSElOAQwkQ0sjMTg4MDEyfB0HBDY4BQ5YNjh8MHwwfDV8MTg3OTg5fDJ8MHw0MTEJFigtMjE0NzQ4MzY0OAFfAFIRYCgxIxr3AQo6ChIKBy0ffBIHU1RBVElPThIZMjAyMy0wNC0xOFQxMzozMjowMCswAQZMIgdQTEFOTkVEKAgKGwoOCgMxMzIVOBkdAAkVWSFDFSEAGjJZAAw0OjI4SlkA8EAKEhgICBAKGgYwMDAwMTEiAklDKgExMgM3MjAaNgoCUiASGlBsYWNlIHJlc2VydmF0aW9uIHBvc3NpYmxlGP___wkCBAEgCQhM____ASoOUFVCTElDX0pPVVJORVk",
+            "legs": [
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "0",
+                    "duration": "PT56M",
+                    "serviceJourney": {
+                        "id": "1|623945|1|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8503000",
+                                    "name": "Z\u00fcrich HB",
+                                    "canton": "ZH",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.540193,
+                                            47.378177
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8503000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:32:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503000_32",
+                                        "swissLocationId": "ch:1:sloid:3000:500:32",
+                                        "name": "32"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "32"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 8,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "132",
+                                    "name": "Bahn-2000-Strecke",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.689364,
+                                            47.19637
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/132"
+                                    }
+                                },
+                                "forBoarding": false,
+                                "forAlighting": false,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "delayUndefined": false,
+                                "routeIndex": 9,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8507000",
+                                    "name": "Bern",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.439122,
+                                            46.948825
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8507000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:28:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8507000_6",
+                                        "swissLocationId": "ch:1:sloid:7000:3:6",
+                                        "name": "6"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "6"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 10,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "IC 1 720",
+                                "line": "1",
+                                "lineId": "H_1_000011_",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "InterCity",
+                                    "vehicleSubModeShortName": "IC"
+                                },
+                                "number": "720",
+                                "numberFormatted": "720",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "WR",
+                                "text": {
+                                    "template": "Restaurant",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 1,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": true
+                            },
+                            {
+                                "name": "FA",
+                                "text": {
+                                    "template": "Family Coach with play area",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": true
+                            },
+                            {
+                                "name": "BZ",
+                                "text": {
+                                    "template": "Business zone in 1st class",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": true
+                            },
+                            {
+                                "name": "FS",
+                                "text": {
+                                    "template": "Free Internet with the SBB FreeSurf app",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": true
+                            },
+                            {
+                                "name": "RZ",
+                                "text": {
+                                    "template": "Quiet zone in 1st class",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": true
+                            },
+                            {
+                                "name": "R",
+                                "text": {
+                                    "template": "Place reservation possible",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 8,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": true
+                            },
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:720-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 8,
+                                "routeIndexTo": 10,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Gen\u00e8ve-A\u00e9roport"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "status": {
+                "alternative": false,
+                "valid": true,
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "quayChanged": false,
+                "delayed": false,
+                "delayedUnknown": false,
+                "reachable": true,
+                "notServicedStopPoints": false,
+                "unplannedStopPoints": false
+            },
+            "fastTransfer": false,
+            "transfers": 0,
+            "duration": "PT56M",
+            "pagingChecksum": "861ee9cc_3",
+            "operatingPeriods": [
+                {
+                    "daysIrregularFormatted": "18. Apr until 9. Dec 2023 daily; 15. Jul until 6. Aug 2023 Mo - Fr; 19. Aug until 1. Oct 2023 Mo - Fr; not 13., 14. May 2023, 3., 4. Jun 2023, 1., 2. Jul 2023, 28., 29. Oct 2023",
+                    "operatingDays": [],
+                    "name": "Trip"
+                }
+            ]
+        },
+        {
+            "id": "ogpECgJWMRKHBcKswrZCQUlNwrZ0AQvwQEhLScK2VCRBPTFATz1aw7xyaWNoIEhCQFg9ODU0MDIxMUBZPTQ3Mzc4MTc3QHU9MEBMPTg1MDMwMDBAYT0xMjhADTsQQWFyYXUBNhQwNTEyNzgJNhQ5MTM2NEAVNhAyMTEzQA02LDIwMjMwNDE4MTMzOBkNODQwNSRSRSA0ODIyJCQxJAUBBMKnEZ--ZAAJ1ThPbHRlbkBYPTc5MDc3MDMJmhA1MTkzOBmaDDAyMThCmgAINDEzHZoEMjQFmgQ3N06aAL5kAAmaCEJlcgWZADQhKSVpFDY5NDg4Mz0zCDcwMDVpNTMINDI5HQ0YNTYkRUMgNzkw4LZLQ8K2I1ZFIzIjQ0YjNTAjQ0EjMCNDTSMwI1NJQ1QjMSNBTSMxMTU1MDgwMSNBTTIjMCNSVCM3IwE6DTsoMCNFUkcjMyNISU4BDCRDSyMxODgwMTh8HQcEOTYFDiQ5NnwwfDB8MTY1BQ8YMTN8M3wwfAkVPC0yMTQ3NDgzNjQ4I8K2S1IRXygxIxq9AQo4ChIKB01OuBIHU1RBVElPThIZMjAyMy0wNC0xOFQxMzozODowMCswMjowMCIHUExBTk5FRAofDToMMjExORU6ACIRHwwoAQo6GSEAMxUhABoyWwAMNDowNUZbAEwoAhIUEAIaBjAwMDAxMSICUkUyBEGPRCoOUFVCTElDX0pPVVJORVkaoFplADbAAAw0OjEzSmUAAAUVoUF6YqEABDI0SjwAGAYSFggFEAY6owAENzdGowAErgJWZwA-owAEMjlKZwAkFgobCg4KAzEzMhWfOWEAFxVZQaEVIT5hAQQ1NkpZABgYEhMIFhAYGcC4RUMyATcaOgoCVlISHkJJQ1lDTEVTOiBSZXNlcnZhdGlvbiByZXF1aXJlZBj___8JAgQBIAkISP___wEaNgoCUiASGlBsYWNlIHIdOBxwb3NzaWJsZVY4AD7UAQ",
+            "legs": [
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "0",
+                    "duration": "PT27M",
+                    "serviceJourney": {
+                        "id": "1|467615|4|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8503000",
+                                    "name": "Z\u00fcrich HB",
+                                    "canton": "ZH",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.540193,
+                                            47.378177
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8503000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:38:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503000_17",
+                                        "swissLocationId": "ch:1:sloid:3000:9:17",
+                                        "name": "17"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "17"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 0,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8502119",
+                                    "name": "Lenzburg",
+                                    "canton": "AG",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.170377,
+                                            47.391194
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8502119"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T13:58:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502119_3",
+                                        "swissLocationId": "ch:1:sloid:2119:3:3",
+                                        "name": "3"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "3"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:59:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502119_3",
+                                        "swissLocationId": "ch:1:sloid:2119:3:3",
+                                        "name": "3"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "3"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 1,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8502113",
+                                    "name": "Aarau",
+                                    "canton": "AG",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.051251,
+                                            47.391355
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8502113"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:05:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502113_4",
+                                        "swissLocationId": "ch:1:sloid:2113:3:4",
+                                        "name": "4"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "4"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 2,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "RE 4822",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "RegioExpress",
+                                    "vehicleSubModeShortName": "RE"
+                                },
+                                "number": "4822",
+                                "numberFormatted": "4822",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 0,
+                                "routeIndexTo": 2
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:4822-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 0,
+                                "routeIndexTo": 2,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Aarau"
+                            }
+                        ]
+                    },
+                    "paginationCursor": {
+                        "previous": "PS%3DB%24T%3D140500%24L%3DA%3D1%40O%3DAarau%40X%3D8051278%40Y%3D47391364%40U%3D85%40L%3D8502113%40%24"
+                    }
+                },
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "1",
+                    "duration": "PT11M",
+                    "serviceJourney": {
+                        "id": "1|463648|7|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8502113",
+                                    "name": "Aarau",
+                                    "canton": "AG",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.051251,
+                                            47.391355
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8502113"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T14:13:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8502113_5",
+                                        "swissLocationId": "ch:1:sloid:2113:3:5",
+                                        "name": "5"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "5"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 5,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8500218",
+                                    "name": "Olten",
+                                    "canton": "SO",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.907685,
+                                            47.351929
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8500218"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:24:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8500218_3AB",
+                                        "swissLocationId": "ch:1:sloid:218:2:3",
+                                        "name": "3AB"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "3AB"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 6,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "RE 4772",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "RegioExpress",
+                                    "vehicleSubModeShortName": "RE"
+                                },
+                                "number": "4772",
+                                "numberFormatted": "4772",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 5,
+                                "routeIndexTo": 6
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:4772-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 5,
+                                "routeIndexTo": 6,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Olten"
+                            }
+                        ]
+                    },
+                    "paginationCursor": {
+                        "previous": "PS%3DB%24T%3D142400%24L%3DA%3D1%40O%3DOlten%40X%3D7907703%40Y%3D47351938%40U%3D85%40L%3D8500218%40%24",
+                        "next": "PS%3DF%24T%3D141300%24L%3DA%3D1%40O%3DAarau%40X%3D8051278%40Y%3D47391364%40U%3D85%40L%3D8502113%40%24"
+                    }
+                },
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "2",
+                    "duration": "PT27M",
+                    "serviceJourney": {
+                        "id": "1|813357|0|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8500218",
+                                    "name": "Olten",
+                                    "canton": "SO",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.907685,
+                                            47.351929
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8500218"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T14:29:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8500218_11",
+                                        "swissLocationId": "ch:1:sloid:218:6:11",
+                                        "name": "11"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "11"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 22,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "132",
+                                    "name": "Bahn-2000-Strecke",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.689364,
+                                            47.19637
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/132"
+                                    }
+                                },
+                                "forBoarding": false,
+                                "forAlighting": false,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "delayUndefined": false,
+                                "routeIndex": 23,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8507000",
+                                    "name": "Bern",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.439122,
+                                            46.948825
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8507000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:56:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8507000_6",
+                                        "swissLocationId": "ch:1:sloid:7000:3:6",
+                                        "name": "6"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "6"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 24,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "EC 7",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "EuroCity",
+                                    "vehicleSubModeShortName": "EC"
+                                },
+                                "number": "7",
+                                "numberFormatted": "7",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "WR",
+                                "text": {
+                                    "template": "Restaurant",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 1,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "FZ",
+                                "text": {
+                                    "template": "Family zone without play area",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "BZ",
+                                "text": {
+                                    "template": "Business zone in 1st class",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "FS",
+                                "text": {
+                                    "template": "Free Internet with the SBB FreeSurf app",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "VS",
+                                "text": {
+                                    "template": "BICYCLES: Reservation at the counter or URL",
+                                    "arguments": {
+                                        "URL": [
+                                            "sbb.ch/en/bike-reservation"
+                                        ]
+                                    }
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 6,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "VR",
+                                "text": {
+                                    "template": "BICYCLES: Reservation required",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 6,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "R",
+                                "text": {
+                                    "template": "Place reservation possible",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 8,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": true
+                            },
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:7-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 22,
+                                "routeIndexTo": 24,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Interlaken Ost"
+                            }
+                        ]
+                    },
+                    "paginationCursor": {
+                        "next": "PS%3DF%24T%3D142900%24L%3DA%3D1%40O%3DOlten%40X%3D7907703%40Y%3D47351938%40U%3D85%40L%3D8500218%40%24"
+                    }
+                }
+            ],
+            "status": {
+                "alternative": false,
+                "valid": true,
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "quayChanged": false,
+                "delayed": false,
+                "delayedUnknown": false,
+                "reachable": true,
+                "notServicedStopPoints": false,
+                "unplannedStopPoints": false
+            },
+            "fastTransfer": false,
+            "transfers": 2,
+            "duration": "PT1H18M",
+            "pagingChecksum": "569d95f9_3",
+            "operatingPeriods": [
+                {
+                    "daysIrregularFormatted": "18. Apr until 8. Dec 2023 Mo - Fr; not 31. Jul until 21. Sep 2023; also 6., 7. May 2023; 20. until 28. May 2023 daily; 8., 9. Jul 2023; 23. Sep until 22. Oct 2023 daily; 4. Nov until 9. Dec 2023 daily",
+                    "operatingDays": [],
+                    "name": "Trip"
+                }
+            ]
+        },
+        {
+            "id": "tAVECgJWMRLhAsKswrZCQUlNwrZ0AQvwQEhLScK2VCRBPTFATz1aw7xyaWNoIEhCQFg9ODU0MDIxMUBZPTQ3Mzc4MTc3QHU9MEBMPTg1MDMwMDBAYT0xMjhADTswQmVybkBYPTc0MzkxMwU1HDY5NDg4MzRAFTUANx01LDIwMjMwNDE4MTM1MxkNRDUyMSRJUiAzNSAyMzcwJCQxJAUBsMK2S0PCtiNWRSMyI0NGIzUwI0NBIzAjQ00jMCNTSUNUIzEjQU0jMTE1NTA4MAEMIDIjMCNSVCM3IwE6DTtAMCNFUkcjMjEwOTQ0MSNISU4BEiRDSyMxODgwNDJ8AQcEMzMFBwQ5OAEHJDEyMXwwfDB8OTcBDiwwMTl8NHwwfDQwOTYFFygtMjE0NzQ4MzY0OAFmAFIRZygxIxrJAgo6ChIKBy0owBIHU1RBVElPThIZMjAyMy0wNC0xOFQxMzo1MzowMCswMjowMCIHUExBTk5FRCgLCh8ZPAAxFTwAIhUhAAwVIQwwMjE4SiEAAA0VIQg4MTAZfhlCAA4ZIQQwME5CAAAPLiEAADVKYwAAEBXhIdQVIQAaMuEADDU6MjFK4QCwERIaCAsQERoGMDAwMDExIgJJUioCMzUyBDIzNzAqDlBVQkxJQ19KT1VSTkVZ",
+            "legs": [
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "0",
+                    "duration": "PT1H28M",
+                    "serviceJourney": {
+                        "id": "1|243919|0|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8503000",
+                                    "name": "Z\u00fcrich HB",
+                                    "canton": "ZH",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.540193,
+                                            47.378177
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8503000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:53:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503000_17",
+                                        "swissLocationId": "ch:1:sloid:3000:9:17",
+                                        "name": "17"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "17"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 11,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8503001",
+                                    "name": "Z\u00fcrich Altstetten",
+                                    "canton": "ZH",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.488936,
+                                            47.391481
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8503001"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T13:58:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503001_7",
+                                        "swissLocationId": "ch:1:sloid:3001:4:7",
+                                        "name": "7"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "7"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T13:59:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503001_7",
+                                        "swissLocationId": "ch:1:sloid:3001:4:7",
+                                        "name": "7"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "7"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 12,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8500218",
+                                    "name": "Olten",
+                                    "canton": "SO",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.907685,
+                                            47.351929
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8500218"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:28:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8500218_9",
+                                        "swissLocationId": "ch:1:sloid:218:5:9",
+                                        "name": "9"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "9"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T14:36:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8500218_9",
+                                        "swissLocationId": "ch:1:sloid:218:5:9",
+                                        "name": "9"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "9"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 13,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8508100",
+                                    "name": "Langenthal",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.784712,
+                                            47.217297
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8508100"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:47:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8508100_2",
+                                        "swissLocationId": "ch:1:sloid:8100:2:2",
+                                        "name": "2"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "2"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T14:48:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8508100_2",
+                                        "swissLocationId": "ch:1:sloid:8100:2:2",
+                                        "name": "2"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "2"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 14,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8508008",
+                                    "name": "Herzogenbuchsee",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.700942,
+                                            47.188082
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8508008"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:53:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8508008_2",
+                                        "swissLocationId": "ch:1:sloid:8008:2:2",
+                                        "name": "2"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "2"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T14:54:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8508008_2",
+                                        "swissLocationId": "ch:1:sloid:8008:2:2",
+                                        "name": "2"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "2"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 15,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8508005",
+                                    "name": "Burgdorf",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.621684,
+                                            47.060696
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8508005"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T15:05:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8508005_2",
+                                        "swissLocationId": "ch:1:sloid:8005:2:2",
+                                        "name": "2"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "2"
+                                },
+                                "departure": {
+                                    "timeAimed": "2023-04-18T15:06:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8508005_2",
+                                        "swissLocationId": "ch:1:sloid:8005:2:2",
+                                        "name": "2"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "2"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 16,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8507000",
+                                    "name": "Bern",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.439122,
+                                            46.948825
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8507000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T15:21:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8507000_50",
+                                        "swissLocationId": "ch:1:sloid:7000:55:50",
+                                        "name": "50"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "50"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 17,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "IR 35 2370",
+                                "line": "35",
+                                "lineId": "H_35_000011_",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "InterRegio",
+                                    "vehicleSubModeShortName": "IR"
+                                },
+                                "number": "2370",
+                                "numberFormatted": "2370",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 11,
+                                "routeIndexTo": 17
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "FS",
+                                "text": {
+                                    "template": "Free Internet with the SBB FreeSurf app",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 11,
+                                "routeIndexTo": 17,
+                                "advertised": true
+                            },
+                            {
+                                "name": "ZN",
+                                "text": {
+                                    "template": "Aare Linth",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 11,
+                                "routeIndexTo": 17,
+                                "advertised": true
+                            },
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:2370-002",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 11,
+                                "routeIndexTo": 17,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Bern"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "status": {
+                "alternative": false,
+                "valid": true,
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "quayChanged": false,
+                "delayed": false,
+                "delayedUnknown": false,
+                "reachable": true,
+                "notServicedStopPoints": false,
+                "unplannedStopPoints": false
+            },
+            "fastTransfer": false,
+            "transfers": 0,
+            "duration": "PT1H28M",
+            "pagingChecksum": "5ea131db_3",
+            "operatingPeriods": [
+                {
+                    "daysIrregularFormatted": "18. Apr until 8. Dec 2023 Mo - Fr; not 18., 29. May 2023, 1. Aug 2023",
+                    "operatingDays": [],
+                    "name": "Trip"
+                }
+            ]
+        },
+        {
+            "id": "2gRECgJWMRLZAsKswrZCQUlNwrZ0AQvwQEhLScK2VCRBPTFATz1aw7xyaWNoIEhCQFg9ODU0MDIxMUBZPTQ3Mzc4MTc3QHU9MEBMPTg1MDMwMDBAYT0xMjhADTswQmVybkBYPTc0MzkxMwU1HDY5NDg4MzRAFTUANx01LDIwMjMwNDE4MTQwMh0NODU4JElDIDggODIwJCQxJAUBsMK2S0PCtiNWRSMyI0NGIzUwI0NBIzAjQ00jMCNTSUNUIzEjQU0jMTE1NTA4MAEMIDIjMCNSVCM3IwE6DTsoMCNFUkcjMSNISU4BDCRDSyMxODgwNDJ8HQcEOTgFDiA5OHwwfDB8OTcFDiQxOXw1fDB8NDExCRcoLTIxNDc0ODM2NDgBYABSEWEoMSMa9wEKOgoSCgctIHgSB1NUQVRJT04SGTIwMjMtMDQtMThUMTQ6MDI6MDArBQZMIgdQTEFOTkVEKAYKGwoOCgMxMzIVOBkdAAcVWSFEFSEAGjpZAAQ1OEpZAPBACBIYCAYQCBoGMDAwMDExIgJJQyoBODIDODIwGjYKAlIgEhpQbGFjZSByZXNlcnZhdGlvbiBwb3NzaWJsZRj___8JAgQBIAkITP___wEqDlBVQkxJQ19KT1VSTkVZ",
+            "legs": [
+                {
+                    "type": "PTRideLeg",
+                    "mode": "TRAIN",
+                    "id": "0",
+                    "duration": "PT56M",
+                    "serviceJourney": {
+                        "id": "1|678713|0|85|18042023|C:B",
+                        "stopPoints": [
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8503000",
+                                    "name": "Z\u00fcrich HB",
+                                    "canton": "ZH",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            8.540193,
+                                            47.378177
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8503000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "departure": {
+                                    "timeAimed": "2023-04-18T14:02:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8503000_31",
+                                        "swissLocationId": "ch:1:sloid:3000:500:31",
+                                        "name": "31"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "31"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 6,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "132",
+                                    "name": "Bahn-2000-Strecke",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.689364,
+                                            47.19637
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/132"
+                                    }
+                                },
+                                "forBoarding": false,
+                                "forAlighting": false,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "delayUndefined": false,
+                                "routeIndex": 7,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            },
+                            {
+                                "place": {
+                                    "type": "StopPlace",
+                                    "id": "8507000",
+                                    "name": "Bern",
+                                    "canton": "BE",
+                                    "centroid": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            7.439122,
+                                            46.948825
+                                        ]
+                                    },
+                                    "tariffBorder": false,
+                                    "vehicleModes": [],
+                                    "links": {
+                                        "detail": "/v3/stop-places/8507000"
+                                    }
+                                },
+                                "forBoarding": true,
+                                "forAlighting": true,
+                                "accessibilityBoardingAlighting": {
+                                    "limitation": "NO_HINT",
+                                    "name": "No information available",
+                                    "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                                    "assistanceService": {
+                                        "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                                        "arguments": {
+                                            "PHONE": [
+                                                "+41 800 007 102"
+                                            ],
+                                            "URL": [
+                                                "sbb.ch/en/handicap"
+                                            ]
+                                        }
+                                    },
+                                    "corporateIdentityIcon": "sa-ru"
+                                },
+                                "stopStatus": "PLANNED",
+                                "requestStop": false,
+                                "arrival": {
+                                    "timeAimed": "2023-04-18T14:58:00+02:00",
+                                    "quayAimed": {
+                                        "id": "8507000_5",
+                                        "swissLocationId": "ch:1:sloid:7000:3:5",
+                                        "name": "5"
+                                    },
+                                    "quayChanged": false,
+                                    "quayFormatted": "5"
+                                },
+                                "delayUndefined": false,
+                                "routeIndex": 8,
+                                "occupancyFirstClass": "UNKNOWN",
+                                "occupancySecondClass": "UNKNOWN"
+                            }
+                        ],
+                        "serviceProducts": [
+                            {
+                                "name": "IC 8 820",
+                                "line": "8",
+                                "lineId": "H_8_000011_",
+                                "vehicleMode": {
+                                    "id": "TRAIN",
+                                    "name": "Train",
+                                    "corporateIdentityIcon": "SBB_oev_b_t02",
+                                    "vehicleSubModeName": "InterCity",
+                                    "vehicleSubModeShortName": "IC"
+                                },
+                                "number": "820",
+                                "numberFormatted": "820",
+                                "operator": {
+                                    "id": "000011",
+                                    "name": "Schweizerische Bundesbahnen SBB",
+                                    "shortName": "SBB"
+                                },
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8
+                            }
+                        ],
+                        "serviceAlteration": {
+                            "cancelled": false,
+                            "partiallyCancelled": false,
+                            "reachable": true,
+                            "redirected": false
+                        },
+                        "notices": [
+                            {
+                                "name": "WR",
+                                "text": {
+                                    "template": "Restaurant",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 1,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": true
+                            },
+                            {
+                                "name": "FA",
+                                "text": {
+                                    "template": "Family Coach with play area",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": true
+                            },
+                            {
+                                "name": "BZ",
+                                "text": {
+                                    "template": "Business zone in 1st class",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": true
+                            },
+                            {
+                                "name": "FS",
+                                "text": {
+                                    "template": "Free Internet with the SBB FreeSurf app",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": true
+                            },
+                            {
+                                "name": "RZ",
+                                "text": {
+                                    "template": "Quiet zone in 1st class",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 4,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": true
+                            },
+                            {
+                                "name": "R",
+                                "text": {
+                                    "template": "Place reservation possible",
+                                    "arguments": {}
+                                },
+                                "type": "ATTRIBUTE",
+                                "priority": 8,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": true
+                            },
+                            {
+                                "name": "JY",
+                                "text": {
+                                    "template": "ch:1:sjyid:100001:820-001",
+                                    "arguments": {}
+                                },
+                                "type": "INFO",
+                                "priority": 100,
+                                "routeIndexFrom": 6,
+                                "routeIndexTo": 8,
+                                "advertised": false
+                            }
+                        ],
+                        "situations": [],
+                        "operatingPeriods": [],
+                        "quayTypeName": "Platform",
+                        "quayTypeShortName": "Pl.",
+                        "directions": [
+                            {
+                                "name": "Brig"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "status": {
+                "alternative": false,
+                "valid": true,
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "quayChanged": false,
+                "delayed": false,
+                "delayedUnknown": false,
+                "reachable": true,
+                "notServicedStopPoints": false,
+                "unplannedStopPoints": false
+            },
+            "fastTransfer": false,
+            "transfers": 0,
+            "duration": "PT56M",
+            "pagingChecksum": "640eeba8_3",
+            "operatingPeriods": [
+                {
+                    "daysIrregularFormatted": "18. Apr until 8. Dec 2023 Mo - Fr; also 22. Apr until 7. May 2023 daily; 20. until 28. May 2023 daily; 10. until 25. Jun 2023 daily; 8., 9. Jul 2023, 12., 13. Aug 2023; 7. until 22. Oct 2023 daily; 4., 5. Nov 2023; 25. Nov until 9. Dec 2023 daily",
+                    "operatingDays": [],
+                    "name": "Trip"
+                }
+            ]
+        }
+    ],
+    "paginationCursor": {
+        "previous": "3%7COB%7CMT%C2%B514%C2%B5187988%C2%B5187988%C2%B5188064%C2%B5188064%C2%B50%C2%B50%C2%B5165%C2%B5187987%C2%B51%C2%B50%C2%B522%C2%B50%C2%B50%C2%B5-2147483648%C2%B51%C2%B52%7CPDH%C2%B55b7fb2ba11127a0f2da35a4c497de862%7CRD%C2%B518042023%7CRT%C2%B5130700%7CUS%C2%B50%7CRS%C2%B5INIT",
+        "next": "3%7COF%7CMT%C2%B514%C2%B5188042%C2%B5188042%C2%B5188098%C2%B5188098%C2%B50%C2%B50%C2%B597%C2%B5188019%C2%B55%C2%B50%C2%B54118%C2%B50%C2%B50%C2%B5-2147483648%C2%B51%C2%B52%7CPDH%C2%B55b7fb2ba11127a0f2da35a4c497de862%7CRD%C2%B518042023%7CRT%C2%B5130700%7CUS%C2%B50%7CRS%C2%B5INIT"
+    }
+}

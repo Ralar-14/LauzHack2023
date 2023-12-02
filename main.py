@@ -31,7 +31,7 @@ def use_token():
 
 if __name__ == '__main__':
     #save json to a file
-    api_data = use_token()
+    api_data = use_token() 
         
     #data2 preprocessing
     jf = {"stopPlaces": [{"id": data['id'], "vehicleModes": [i["id"] for i in data['vehicleModes']]} for data in api_data['stopPlaces']]}

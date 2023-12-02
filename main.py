@@ -31,7 +31,7 @@ def use_token(route, method="GET", js=None):
         return requests.get(API_URL + route, headers=headers).json()
     
 def get_data():
-    api_data = use_token("/v3/stop-places")
+    api_data = use_token(route = "/v3/stop-places")
     jf = {"stopPlaces": [{"id": data['id'], "vehicleModes": [i["id"] for i in data['vehicleModes']]} for data in api_data['stopPlaces']]}
 
     json_filtrado = json.dumps(jf, indent=4)
@@ -39,6 +39,7 @@ def get_data():
     return json_filtrado
 
 if __name__ == '__main__':
+    use
     # get_data()
     #46.22083551986927, 6.120279059147888
     #47.47444774490644, 8.51004368853066

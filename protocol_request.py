@@ -26,10 +26,10 @@ def use_token():
     }
     # Include the header (and additional ones if needed in your request)
 
-    return requests.post(API_URL + "/v3/trips/by-origin-destination", headers=headers, json={   "origin": "8503000",   "destination": "8507000",   "date": "2023-04-18",   "time": "13:07",   "mobilityFilter": {     "walkSpeed": 50,   },   "includeAccessibility": "ALL", }).json()
-
+    #return requests.post(API_URL + "/v3/trips/by-origin-destination", headers=headers, json={   "origin": "8011315",   "destination": "8507000",   "date": "2023-04-18",   "time": "13:07",   "mobilityFilter": {     "walkSpeed": 50,   },   "includeAccessibility": "ALL", }).json()
+    return requests.get(API_URL + "/v3/stop-places/8011315", headers=headers).json()
 
 if __name__ == '__main__':
     #save json to a file
-    with open('data.json', 'w') as outfile:
+    with open('data2.json', 'w') as outfile:
         json.dump(use_token(), outfile)

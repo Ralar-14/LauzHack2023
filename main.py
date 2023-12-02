@@ -16,7 +16,7 @@ def get_token():
     return requests.post('https://login.microsoftonline.com/2cda5d11-f0ac-46b3-967d-af1b2e1bd01a/oauth2/v2.0/token',
                          data=params).json()
 
-def use_token():
+def use_token(route):
     auth = get_token()['access_token']
     headers = {
         'Authorization': f"Bearer {auth}",
@@ -26,20 +26,25 @@ def use_token():
     }
     # Include the header (and additional ones if needed in your request)
 
-    #return requests.post(API_URL + "/v3/trips/by-origin-destination", headers=headers, json={   "origin": "8011315",   "destination": "8507000",   "date": "2023-04-18",   "time": "13:07",   "mobilityFilter": {     "walkSpeed": 50,   },   "includeAccessibility": "ALL", }).json()
-    return requests.get(API_URL + "/v3/stop-places", headers=headers).json()
+    #return requests.post(API_URL + route "/v3/trips/by-origin-destination", headers=headers, json={   "origin": "8011315",   "destination": "8507000",   "date": "2023-04-18",   "time": "13:07",   "mobilityFilter": {     "walkSpeed": 50,   },   "includeAccessibility": "ALL", }).json()
+    return requests.get(API_URL + route, headers=headers).json()
 
-if __name__ == '__main__':
-    #save json to a file
-    api_data = use_token() 
-        
-    #data2 preprocessing
+def get_data():
+    api_data = use_token("/v3/stop-places")
     jf = {"stopPlaces": [{"id": data['id'], "vehicleModes": [i["id"] for i in data['vehicleModes']]} for data in api_data['stopPlaces']]}
 
     json_filtrado = json.dumps(jf, indent=4)
     
-    with open('data2.json', 'w') as f:
-        f.write(json_filtrado)
+    #with open('data2.json', 'w') as f:
+    #    f.write(json_filtrado)
+         
+    return json_filtrado
+
+if __name__ == '__main__':
+    # get_data()
+    
+        
+    
     
     
     

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TCL</title>
+  <style>
+    /* Estilos para el cuerpo de la página */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0; /* Eliminar el margen predeterminado */
+      position: relative;
+      color: white;
+      font-family: Arial, sans-serif;
+      overflow: hidden; /* Evitar que la imagen de fondo genere barras de desplazamiento */
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://c.wallhere.com/photos/b5/2b/schnee_winter_mountain_berg_eisenbahn_sbb_trainstation_railways-950182.jpg!d');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+    }
+
+    /* Estilos para el contenido */
+    .content {
+      position: relative;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 80%; /* Ancho del contenido */
+      max-width: 800px; /* Máximo ancho del contenido */
+      margin: 1%;
+    }
+
+    /* Estilos para las cajas de texto */
+    input[type="text"],
+    textarea {
+      font-size: 20px;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white; /* Color del texto */
+      text-align: center;
+    }
+
+    /* Estilos para el botón */
+    button {
+      font-size: 20px;
+      padding: 12px 30px;
+      border: 2px solid #007bff;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: white;
+    }
+
+    button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Estilo para el mapa */
+    #mapContainer {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    #map {
+      width: 100%;
+      max-width: 100%;
+      height: 80%;
+    }
+
+    h1 {
+      margin: 0; /* Eliminar el margen predeterminado del encabezado */
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+</head>
+<body>
+  <div class="content">
+    <h1>TCL</h1>
+    <form action="/" method="post">
+    <div class="input-container">
+        <input type="number" step="0.00001" id="coords_init_latitude" name="coords_init_latitude" required placeholder="ORIGIN LATITUDE">
+        <input type="number" step="0.00001" id="coords_init_longitude" name="coords_init_longitude" required placeholder="ORIGIN LONGITUDE">
+        <input type="number" step="0.00001" id="coords_end_latitude" name="coords_end_latitude" required placeholder="DESTINATION LATITUDE">
+        <input type="number" step="0.00001" id="coords_end_longitude" name="coords_end_longitude" required placeholder="DESTINATION LONGITUDE">
+      <div id="mapContainer">
+        <div id="map"></div> <!-- Contenedor para el mapa -->
+      </div>
+    </div>
+    <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script>
+    {% if m == "true": %}
+    var main_coords = {{main_coords}};
+    {% else %}
+    var main_coords = [[46.9649, 8.0991]];
+    {% endif %}
+    var map = new L.map('map').setView(main_coords[0], 13);
+  
+    
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19
+    }).addTo(map);
+
+    {% if m == "true" %}
+// Create a polyline with the route
+var route = L.polyline({{main_coords}}, { color: 'red' }).addTo(map);
+var route2 = L.polyline({{coords1}}, { color: 'blue' }).addTo(map);
+var route3 = L.polyline({{coords2}}, { color: 'green' }).addTo(map);
+
+// Fit the map to the route
+map.fitBounds(route.getBounds());
+{% endif %}
+</script>
+</body>
+</html>

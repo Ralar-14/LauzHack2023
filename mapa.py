@@ -1,6 +1,6 @@
 
 import requests
-from main import get_token, compute_ids
+from main import get_token, compute_ids, use_token
 import json
 
 API_URL = "https://journey-service-int.api.sbb.ch"
@@ -44,6 +44,10 @@ def get_route_drawing(codi_origen, codi_desti):
 
 def main_fun(init_coords, end_coords):
     id_org, id_dst = compute_ids(init_coords, end_coords)
+
+    a = use_token("/v3/stop-places/" + id_dst)
+    with open("a.json", "w") as f:
+        json.dump(a, f)
     
     response = get_route_drawing(id_org, id_dst)
     with open("mapa.json", "w") as f:

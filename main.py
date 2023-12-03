@@ -39,10 +39,12 @@ def get_data():
     return json_filtrado
 
 def compute_ids(coords_init, coords_end):
-    org = use_token(f"/v3/places/by-coordinates?longitude={coords_init[1]}&latitude={coords_init[0]}&limit=1&includeVehicleModes=false&type=StopPlace")
-    print(org)
+    print(coords_init)
+    org = use_token(f"/v3/places/by-coordinates?longitude={coords_init[1]}&latitude={coords_init[0]}&includeVehicleModes=true&type=StopPlace")
+    #org = [place for place in org["places"] if any(mode["id"] == "TRAIN" for mode in place.get("vehicleModes", []))]
     id_org = org["places"][0]["id"]
-    dst = use_token(f"/v3/places/by-coordinates?longitude={coords_end[1]}&latitude={coords_end[0]}&limit=1&includeVehicleModes=false&type=StopPlace")
+    dst = use_token(f"/v3/places/by-coordinates?longitude={coords_end[1]}&latitude={coords_end[0]}&includeVehicleModes=true&type=StopPlace")
+    #dst = [place for place in dst["places"] if any(mode["id"] == "TRAIN" for mode in place.get("vehicleModes", []))]
     id_dst = dst["places"][0]["id"]
     return id_org, id_dst
 

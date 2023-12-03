@@ -38,14 +38,37 @@ def get_data():
          
     return json_filtrado
 
+def main():
+    jsn = {"origin": "8501042", "destination": "8506041"}
+    a = use_token("/v3/trips/by-origin-destination", method="POST", js=jsn)
+    with open("data.json", "w") as f:
+        json.dump(a, f, indent=4)
+    id = a["trips"][0]["id"]
+    url_map = "https://journey-maps.api.sbb.ch/v1/journey"
+    api_key_map = "bf9e3a88ab8101ba22ba8c752bbbcfd8"
+    response = requests.get(f"{url_map}?ctx={id}&lang=en&api_key={api_key_map}")
+    with open("jour.json", "w") as f:
+        json.dump(response.json(), f, indent=4)
+
+if __name__ == "__main__":
+    main()
+
 def compute_ids(coords_init, coords_end):
     print(coords_init)
-    org = use_token(f"/v3/places/by-coordinates?longitude={coords_init[1]}&latitude={coords_init[0]}&includeVehicleModes=true&type=StopPlace")
-    #org = [place for place in org["places"] if any(mode["id"] == "TRAIN" for mode in place.get("vehicleModes", []))]
-    id_org = org["places"][0]["id"]
-    dst = use_token(f"/v3/places/by-coordinates?longitude={coords_end[1]}&latitude={coords_end[0]}&includeVehicleModes=true&type=StopPlace")
-    #dst = [place for place in dst["places"] if any(mode["id"] == "TRAIN" for mode in place.get("vehicleModes", []))]
-    id_dst = dst["places"][0]["id"]
+    org = use_token(f"/v3/places/by-coordinates?longitude={coords_init[1]}&latitude={coords_init[0]}&includeVehicleModes=true&type=StopPlace&radius=100000&limit=50")
+    with open("org.json", "w") as f:
+        json.dump(org, f, indent=4)
+    org = [place for place in org["places"] if any(mode["id"] == "TRAIN" for mode in place["vehicleModes"])]
+    with open("org2.json", "w") as f:
+        json.dump(org, f, indent=4)
+    id_org = org[0]["id"]
+    dst = use_token(f"/v3/places/by-coordinates?longitude={coords_end[1]}&latitude={coords_end[0]}&includeVehicleModes=true&type=StopPlace&radius=100000&limit=50")
+    with open("dst.json", "w") as f:
+        json.dump(dst, f, indent=4)
+    dst = [place for place in dst["places"] if any(mode["id"] == "TRAIN" for mode in place["vehicleModes"])]
+    with open("dst2.json", "w") as f:
+        json.dump(dst, f, indent=4)
+    id_dst = dst[0]["id"]
     return id_org, id_dst
 
 # jsn = {"origin": id_org, "destination": id_dst}

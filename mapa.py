@@ -44,14 +44,8 @@ def get_route_drawing(codi_origen, codi_desti):
 
 def main_fun(init_coords, end_coords):
     id_org, id_dst = compute_ids(init_coords, end_coords)
-
-    a = use_token("/v3/stop-places/" + id_dst)
-    with open("a.json", "w") as f:
-        json.dump(a, f)
     
     response = get_route_drawing(id_org, id_dst)
-    with open("mapa.json", "w") as f:
-        json.dump(response.json(), f)
     lista = response.json()["features"][2]["geometry"]["coordinates"]
     lista = [[i[1], i[0]] for i in lista]
     return lista

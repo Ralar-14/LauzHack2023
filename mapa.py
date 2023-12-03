@@ -24,10 +24,11 @@ def get_route_drawing(codi_origen, codi_desti):
     return requests.get(f"{url_map}?fromStationID={codi_origen}&toStationID={codi_desti}&api_key={api_key_map}&mot=rail")
 
 def get_route_drawing2(id_org, id_dst):
-    jsn = {"origin": f"{id_org}", "destination": f"{id_dst}"}
-    print("a", jsn)
+    #jsn = {"origin": f"{id_org}", "destination": f"{id_dst}"}
+    jsn = {"origin": "8501042", "destination": "8506041"}
     a = use_token("/v3/trips/by-origin-destination", method="POST", js=jsn)
     id = a["trips"][0]["id"]
+    url_map = "https://journey-maps.api.sbb.ch/v1/journey"
     response = requests.get(f"{url_map}?ctx={id}&lang=en&api_key={api_key_map}")
     return response
 
@@ -39,8 +40,12 @@ def main_fun(init_coords, end_coords):
         json.dump(response.json(), f, indent=4)
     lista = [i["geometry"]["coordinates"] for i in response.json()["features"] if i["geometry"]["type"] == "LineString"]
     #lista = response.json()["features"][2]["geometry"]["coordinates"]
+    l = []
     print(lista)
-    lista = [[i[1], i[0]] for i in lista]
+    for i in lista:
+        l.extend(i)
+    print(l)
+    lista = [[i[1], i[0]] for i in l]
     return lista
 
 

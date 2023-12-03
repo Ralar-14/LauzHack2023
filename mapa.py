@@ -34,11 +34,9 @@ def get_route_drawing2(id_org, id_dst):
     lista = [i["geometry"]["coordinates"] for i in response.json()["features"] if i["properties"]["type"] == "path" and i["properties"]["legId"] in [f"{i}" for i in range(n_legs)] and i["geometry"]["type"] == "LineString" and i["properties"]["generalization"] == 0]
     #lista = response.json()["features"][2]["geometry"]["coordinates"]
     l = []
-    print(lista)
     for i in lista:
         l.extend(i)
-    with open("mapa2.json", "w") as f:
-        json.dump(l, f, indent=4)
+
     lista = [[i[1], i[0]] for i in l]
     return lista
 
